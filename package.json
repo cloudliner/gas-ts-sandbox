@@ -1,0 +1,11 @@
+{
+  "name": "ts-gas-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
