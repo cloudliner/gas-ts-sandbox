@@ -7,8 +7,12 @@ function hello() {
   test();
 }
 
-function newTest() {
+const newTest = () => {
   Logger.log(`newTest ${a}, ${b}, ${c}`);
+  const email = Session.getActiveUser().getEmail();
+  const body = `Test, ${a}, ${b}, ${c}`;
+  MailApp.sendEmail(email, 'GAS-Log: Test', body,
+  { htmlBody: body, noReply: true });
 }
 
 const b = 2;
