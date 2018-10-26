@@ -1,8 +1,8 @@
 {
-  "name": "ts-gas-project",
+  "name": "gas-ts-sandbox",
   "version": "1.0.0",
   "description": "",
-  "main": "code.ts",
+  "main": "hello.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
