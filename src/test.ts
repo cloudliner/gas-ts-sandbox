@@ -7,6 +7,6 @@ function test() {
   var threads = GmailApp.search('Test', 0, 10);
   threads.forEach(function(thread) {
     var messageSubject = thread.getFirstMessageSubject();
-    console.log(messageSubject);
+    Logger.log(messageSubject);
   });
 }
